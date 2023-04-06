@@ -1,0 +1,1065 @@
+.mainContainer{
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+}
+
+@media screen and (min-width: 1440px) and (max-width: 2560px){
+    .mainContainer{
+        width: 100%;
+        height: 100vh;
+    }   
+
+h2{
+    font-style: oblique; 
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: skyblue;
+    text-emphasis-color: white;
+}
+
+.image img{
+    position: absolute;
+    top: 15%;
+    left: 24%;
+    height: 17%;
+}
+
+.image2 img{
+    position: absolute;
+    top: 11%;
+    right: 16%;
+    height: 20%;
+}
+
+.topNav{
+    height: 3%;
+    width: 100%;
+    display: flex;
+    padding: 1% 3%;
+    justify-content: space-between;
+}
+
+.ptag{
+    width: 10%;
+    text-align: start;
+}
+
+.logo{
+    color: rgb(23, 2, 106);
+    text-shadow: 1px 1px 2px white, 0 0 25px rgb(4, 4, 0), 0 0 5px rgb(246, 240, 63);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.topNav nav{
+    display: flex;
+    font-size: 26px;
+    font-weight: 700;
+    width: 60%;
+    height: 100%;
+    justify-content: space-between;
+    padding: 1% 10%;
+}
+
+.topNav nav li{
+    list-style: none;
+    text-decoration: none;
+}
+
+.topNav nav li a{
+    display: flex;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.login{
+    display: flex;
+    font-style: oblique;
+    font-size: medium;
+}
+
+.getDemo{
+    color: blue;
+    font-size: 14px;
+    height: 100%;
+    text-align: center;
+    margin-bottom: 30%;
+}
+
+.demo{
+    border: 2px solid blue;
+    margin-bottom: 10%;
+    /* padding-bottom: 15%; */
+}
+
+.secondContainer{
+    text-align: center;   
+    padding: 5%;
+    height: 10%;
+    background-color: skyblue;    
+}
+
+.thirdContainer{
+    padding: 2%;
+    text-align: center;
+    background-color: whitesmoke;
+    padding-bottom: 10%;
+    height: 10%;
+}
+
+.img1 img{
+    position: absolute;
+    left: 28%;
+    top: 39%;
+    height: 13%;
+}
+
+.img2 img{
+    position: absolute;
+    left: 43%;
+    top: 39%; 
+    height: 13%;
+}
+
+.img3 img{
+    position: absolute;
+    left: 56%;
+    top: 39%; 
+    height: 13%;
+}
+.img4{
+    position: absolute;
+    padding-left: 10%;
+}
+
+.style{
+    padding: 6% 13% 6% 13%;
+}
+
+.picture{
+    height: 18%;
+    padding-bottom: 14%;
+}
+
+
+.alternativeContainer{
+    display: grid;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    row-gap: 2%;
+    padding: 5% 5%;
+    width: inherit;
+    padding-bottom: 13%;
+}
+
+.cont{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 10%;
+}
+
+.ninthContainer{
+    background-color: black;
+    display: grid;
+    grid-template-rows: 70% 5%;
+    padding: 5% 5%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.innerNinth{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    width: 100%;
+}
+
+.firstSide{
+    color: white;
+    /* padding-top: 6%;
+    padding-left: 18%; */
+    font-style: oblique;
+}
+
+.secondSide{
+    color: white;
+    /* padding-top: 6%;
+    padding-right: 50%; */
+    font-style: oblique;
+}
+
+.thirdSide{
+    color: white;
+    /* padding-top: 6%;
+    padding-right: 10%; */
+    font-style: oblique;
+}
+
+.fourthSide{
+    color: white;
+    /* padding-top: 6%;
+    padding-right: 10%; */
+    font-style: oblique;
+}
+
+.fifthSide{
+    color: white;
+    /* padding-top: 6%;
+    padding-left: 50%; */
+    font-style: oblique;
+}
+}
+/*
+SECOND LAYOUT
+*/
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+    .mainContainer{
+       width: 100%;
+       height: 100vh;
+
+   }   
+
+h2{
+   font-style: oblique; 
+}
+
+button:hover{
+   cursor: pointer;
+   background-color: skyblue;
+   text-emphasis-color: white;
+}
+
+.image img{
+   position: absolute;
+   top: 26%;
+   left: 20%;
+   height: 20%;
+}
+
+.image2 img{
+   position: absolute;
+   top: 19%;
+   right: 10%;
+   height: 25%;
+}
+
+.topNav{
+   height: 5%;
+   width: 100%;
+   display: flex;
+   padding: 1% 2%;
+   justify-content: space-between;
+}
+
+.ptag{
+   width: 10%;
+   text-align: start;
+}
+
+.logo{
+   color: rgb(23, 2, 106);
+   text-shadow: 1px 1px 2px white, 0 0 25px rgb(4, 4, 0), 0 0 5px rgb(246, 240, 63);
+   font-size: 20px;
+   font-weight: 700;
+}
+
+.topNav nav{
+   display: flex;
+   font-size: 14px;
+   font-weight: 700;
+   width: 60%;
+   height: 100%;
+   justify-content: space-between;
+   padding: 1% 10%;
+}
+
+.topNav nav li{
+   list-style: none;
+   text-decoration: none;
+}
+
+.topNav nav li a{
+   display: flex;
+   font-style: italic;
+   text-decoration: none;
+}
+
+.login{
+   display: flex;
+   font-style: oblique;
+   font-size: medium;
+}
+
+.getDemo{
+   color: blue;
+   font-size: 14px;
+   height: 100%;
+   text-align: center;
+   margin-bottom: 30%;
+}
+
+.demo{
+   border: 2px solid blue;
+   margin-bottom: 10%;
+   /* padding-bottom: 15%; */
+}
+
+.secondContainer{
+   text-align: center;
+   padding: 1%;
+   height: 30%;
+   background-color: skyblue;    
+}
+
+.thirdContainer{
+   text-align: center;
+   background-color: whitesmoke;
+   padding-bottom: 10%;
+   height: 15%;
+}
+
+.img1 img{
+   position: absolute;
+   left: 24%;
+   top: 55%;
+   height: 15%;
+}
+
+.img2 img{
+   position: absolute;
+   left: 41%;
+   top: 55%; 
+   height: 15%;
+}
+
+.img3 img{
+   position: absolute;
+   left: 58%;
+   top: 55%; 
+   height: 15%;
+}
+.img4{
+   position: absolute;
+   padding-left: 10%;
+}
+
+.style{
+   padding: 6% 13% 6% 13%;
+}
+
+.picture{
+   height: 18%;
+   padding-bottom: 14%;
+}
+
+
+.alternativeContainer{
+   display: grid;
+   grid-template-rows: 20% 20% 20% 20% 20%;
+   row-gap: 2%;
+   padding: 5% 5%;
+   width: inherit;
+   padding-bottom: 13%;
+}
+
+.cont{
+   display: grid;
+   grid-template-columns: 50% 50%;
+   column-gap: 10%;
+}
+
+.ninthContainer{
+   background-color: black;
+   display: grid;
+   grid-template-rows: 70% 5%;
+   padding: 5% 5%;
+   width: 100%;
+   overflow-x: hidden;
+}
+
+.innerNinth{
+   display: grid;
+   grid-template-columns: 20% 20% 20% 20% 20%;
+   width: 100%;
+}
+
+.firstSide{
+   color: white;
+   /* padding-top: 6%;
+   padding-left: 18%; */
+   font-style: oblique;
+}
+
+.secondSide{
+   color: white;
+   /* padding-top: 6%;
+   padding-right: 50%; */
+   font-style: oblique;
+}
+
+.thirdSide{
+   color: white;
+   /* padding-top: 6%;
+   padding-right: 10%; */
+   font-style: oblique;
+}
+
+.fourthSide{
+   color: white;
+   /* padding-top: 6%;
+   padding-right: 10%; */
+   font-style: oblique;
+}
+
+.fifthSide{
+   color: white;
+   /* padding-top: 6%;
+   padding-left: 50%; */
+   font-style: oblique;
+}
+}
+
+/*
+THIRD LAYOUT
+*/
+
+@media screen and (min-width: 425px) and (max-width: 767px){
+    .mainContainer{
+       width: 150%;
+       height: 100vh;
+   }   
+
+h2{
+   font-style: oblique; 
+}
+
+button:hover{
+   cursor: pointer;
+   background-color: skyblue;
+   text-emphasis-color: white;
+}
+
+.image img{
+   position: absolute;
+   top: 30%;
+   left: 19%;
+   height: 0%;
+}
+
+.image2 img{
+   position: absolute;
+   top: 29%;
+   right: 16%;
+   height: 0%;
+}
+
+.topNav{
+   height: 5%;
+   width: 100%;
+   display: flex;
+   padding: 0% 2% 0% 2%;
+   justify-content: space-between;
+}
+
+.ptag{
+   width: 10%;
+   text-align: start;
+}
+
+.logo{
+   color: rgb(23, 2, 106);
+   text-shadow: 1px 1px 2px white, 0 0 25px rgb(4, 4, 0), 0 0 5px rgb(246, 240, 63);
+   font-size: 15px;
+   font-weight: 700;
+}
+
+.topNav nav{
+   display: flex;
+   font-size: 13px;
+   font-weight: 700;
+   width: 60%;
+   height: 100%;
+   justify-content: space-between;
+   padding: 0% 15%;
+}
+
+.topNav nav li{
+    padding-left: 3%;
+   list-style: none;
+   text-decoration: none;
+}
+
+.topNav nav li a{
+   display: flex;
+   font-style: italic;
+   text-decoration: none;
+}
+
+.login{
+   display: flex;
+   padding-left: 4%;
+   font-style: oblique;
+   font-size: medium;
+}
+
+.getDemo{
+    padding-left: 4%;
+    margin-top: -6%;
+   color: blue;
+   font-size: 12px;
+   height: 100%;
+   margin-bottom: 30%;
+}
+
+.demo{
+   border: 1px solid blue;
+   margin-bottom: 10%;
+}
+
+.secondContainer{
+   text-align: center;
+   padding: 1%;
+   height: 30%;
+   background-color: skyblue;    
+}
+
+.thirdContainer{
+   text-align: center;
+   background-color: whitesmoke;
+   padding-bottom: 20%;
+   height: 15%;
+}
+
+.img1 img{
+   position: absolute;
+   left: 27%;
+   top: 50%;
+   height: 15%;
+}
+
+.img2 img{
+   position: absolute;
+   left: 60%;
+   top: 50%; 
+   height: 15%;
+}
+
+.img3 img{
+   position: absolute;
+   left: 89%;
+   top: 50%; 
+   height: 15%;
+}
+.img4{
+   position: absolute;
+   padding-left: 12%;
+}
+
+.style{
+   padding: 6% 13% 6% 13%;
+}
+
+.picture{
+   height: 18%;
+   padding-bottom: 14%;
+}
+
+
+.alternativeContainer{
+   display: grid;
+   grid-template-rows: 20%;
+   row-gap: 3%;
+   padding: 5% 5%;
+   width: inherit;
+   padding-bottom: 13%;
+}
+
+.cont{
+   display: grid;
+   grid-template-columns: 50%;
+   column-gap: 20%;
+}
+
+.ninthContainer{
+   margin-top: 23%;
+   background-color: black;
+   display: grid;
+   grid-template-rows: 70% 5%;
+   padding: 7% 7%;
+   width: 100%;
+   overflow-x: hidden;
+}
+
+.innerNinth{
+   padding-top: 10%;
+   display: grid;
+   grid-template-columns: 20% 20% 20% 20% 20%;
+   width: 100%;
+}
+
+.firstSide{
+   color: white;
+   /* padding-top: 6%;
+   padding-left: 18%; */
+   font-style: oblique;
+}
+
+.secondSide{
+   color: white;
+   /* padding-top: 6%;
+   padding-right: 50%; */
+   font-style: oblique;
+}
+
+.thirdSide{
+   color: white;
+   /* padding-top: 6%;
+   padding-right: 10%; */
+   font-style: oblique;
+}
+
+.fourthSide{
+   color: white;
+   /* padding-top: 6%;
+   padding-right: 10%; */
+   font-style: oblique;
+}
+
+.fifthSide{
+   color: white;
+   /* padding-top: 6%;
+   padding-left: 50%; */
+   font-style: oblique;
+}
+
+}
+
+/* FOURTH LAYOUT */
+
+@media screen and (min-width: 375px) and (max-width: 424px){
+   .mainContainer{
+      width: 100%;
+      height: 100vh;
+  }   
+
+h2{
+  font-style: oblique; 
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: skyblue;
+  text-emphasis-color: white;
+}
+
+.image img{
+  position: absolute;
+  top: 30%;
+  left: 19%;
+  height: 0%;
+}
+
+.image2 img{
+  position: absolute;
+  top: 29%;
+  right: 16%;
+  height: 0%;
+}
+
+.topNav{
+  height: 3%;
+  width: 50%;
+  display: flex;
+  padding: 0% 1% 0% 1%;
+  justify-content: space-between;
+}
+
+.ptag{
+  width: 10%;
+  text-align: start;
+}
+
+.logo{
+  color: rgb(23, 2, 106);
+  text-shadow: 1px 1px 2px white, 0 0 25px rgb(4, 4, 0), 0 0 5px rgb(246, 240, 63);
+  font-size: 8px;
+  font-weight: 700;
+}
+
+.topNav nav{
+  display: flex;
+  font-size: 7px;
+  font-weight: 700;
+  width: 200%;
+  height: 90%;
+  justify-content: space-between;
+  padding: 0% 14%;
+}
+
+.topNav nav li{
+   padding-left: 3%;
+  list-style: none;
+  text-decoration: none;
+}
+
+.topNav nav li a{
+  display: flex;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.login{
+  display: flex;
+  padding-left: 4%;
+  font-style: oblique;
+  font-size: small;
+}
+
+.getDemo{
+   padding-left: 4%;
+   margin-top: -8%;
+  color: blue;
+  font-size: 9px;
+  height: 100%;
+  margin-bottom: 30%;
+}
+
+.demo{
+  border: 1px solid blue;
+  margin-bottom: 10%;
+}
+
+.secondContainer{
+   font-size: smaller;
+  text-align: center;
+  padding: 1%;
+  height: 28%;
+  background-color: skyblue;    
+}
+
+.thirdContainer{
+  text-align: center;
+  background-color: whitesmoke;
+  padding-bottom: 20%;
+  height: 15%;
+}
+
+.img1 img{
+  position: absolute;
+  left: 15%;
+  top: 44%;
+  height: 12%;
+}
+
+.img2 img{
+  position: absolute;
+  left: 44%;
+  top: 44%; 
+  height: 12%;
+}
+
+.img3 img{
+  position: absolute;
+  left: 69%;
+  top: 44%; 
+  height: 12%;
+}
+.img4{
+  position: absolute;
+  padding-left: 3%;
+  height: 6%;
+}
+
+.style{
+  padding: 6% 10% 6% 10%;
+}
+
+.picture{
+  height: 18%;
+  padding-bottom: 14%;
+}
+
+
+.alternativeContainer{
+  display: grid;
+  grid-template-rows: 20%;
+  row-gap: 3%;
+  padding: 5% 5%;
+  width: inherit;
+  padding-bottom: 13%;
+}
+
+.cont{
+  display: grid;
+  grid-template-columns: 50%;
+  column-gap: 20%;
+}
+
+.ninthContainer{
+  margin-top: 70%;
+  background-color: black;
+  display: grid;
+  grid-template-rows: 70% 5%;
+  padding: 7% 7%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.innerNinth{
+  padding-top: 10%;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  width: 110%;
+}
+
+.firstSide{
+  color: white;
+  /* padding-top: 6%;
+  padding-left: 18%; */
+  font-style: oblique;
+}
+
+.secondSide{
+  color: white;
+  /* padding-top: 6%;
+  padding-right: 50%; */
+  font-style: oblique;
+}
+
+.thirdSide{
+  color: white;
+  /* padding-top: 6%;
+  padding-right: 10%; */
+  font-style: oblique;
+}
+
+.fourthSide{
+  color: white;
+  /* padding-top: 6%;
+  padding-right: 10%; */
+  font-style: oblique;
+}
+
+.fifthSide{
+  color: white;
+  /* padding-top: 6%;
+  padding-left: 50%; */
+  font-style: oblique;
+}
+}
+
+/* FIFTH LAYOUT */
+
+@media screen and (min-width: 200px) and (max-width: 374px){
+   .mainContainer{
+      width: 100%;
+      height: 100vh;
+  }   
+
+h2{
+  font-style: oblique; 
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: skyblue;
+  text-emphasis-color: white;
+}
+
+.image img{
+  position: absolute;
+  top: 30%;
+  left: 19%;
+  height: 0%;
+}
+
+.image2 img{
+  position: absolute;
+  top: 29%;
+  right: 16%;
+  height: 0%;
+}
+
+.topNav{
+  height: 3%;
+  width: 50%;
+  display: flex;
+  padding: 0% 1% 0% 1%;
+  justify-content: space-between;
+}
+
+.ptag{
+  width: 10%;
+  text-align: start;
+}
+
+.logo{
+  color: rgb(23, 2, 106);
+  text-shadow: 1px 1px 2px white, 0 0 25px rgb(4, 4, 0), 0 0 5px rgb(246, 240, 63);
+  font-size: 8px;
+  font-weight: 700;
+}
+
+.topNav nav{
+  display: flex;
+  font-size: 7px;
+  font-weight: 700;
+  width: 200%;
+  height: 90%;
+  justify-content: space-between;
+  padding: 0% 14%;
+}
+
+.topNav nav li{
+   padding-left: 3%;
+  list-style: none;
+  text-decoration: none;
+}
+
+.topNav nav li a{
+  display: flex;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.login{
+  display: flex;
+  padding-left: 4%;
+  font-style: oblique;
+  font-size: small;
+}
+
+.getDemo{
+   padding-left: 4%;
+   margin-top: -8%;
+  color: blue;
+  font-size: 9px;
+  height: 100%;
+  margin-bottom: 30%;
+}
+
+.demo{
+  border: 1px solid blue;
+  margin-bottom: 10%;
+}
+
+.secondContainer{
+   font-size: smaller;
+  text-align: center;
+  padding: 1%;
+  height: 40%;
+  background-color: skyblue;    
+}
+
+.thirdContainer{
+  text-align: center;
+  background-color: whitesmoke;
+  padding-bottom: 20%;
+  height: 15%;
+}
+
+.img1 img{
+  position: absolute;
+  left: 8%;
+  top: 55%;
+  height: 12%;
+}
+
+.img2 img{
+  position: absolute;
+  left: 40%;
+  top: 55%; 
+  height: 12%;
+}
+
+.img3 img{
+  position: absolute;
+  left: 69%;
+  top: 55%; 
+  height: 12%;
+}
+.img4{
+  position: absolute;
+  padding-left: 3%;
+  height: 6%;
+}
+
+.style{
+  padding: 6% 10% 6% 10%;
+}
+
+.picture{
+  height: 18%;
+  padding-bottom: 14%;
+}
+
+
+.alternativeContainer{
+  display: grid;
+  grid-template-rows: 20%;
+  row-gap: 3%;
+  padding: 5% 5%;
+  width: inherit;
+  padding-bottom: 13%;
+}
+
+.cont{
+  display: grid;
+  grid-template-columns: 50%;
+  column-gap: 20%;
+}
+
+.ninthContainer{
+  margin-top: 90%;
+  background-color: black;
+  display: grid;
+  grid-template-rows: 70% 5%;
+  padding: 7% 7%;
+  width: 120%;
+  overflow-x: hidden;
+}
+
+.innerNinth{
+  padding-top: 10%;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  width: 110%;
+}
+
+.firstSide{
+  color: white;
+  /* padding-top: 6%;
+  padding-left: 18%; */
+  font-style: oblique;
+}
+
+.secondSide{
+  color: white;
+  /* padding-top: 6%;
+  padding-right: 50%; */
+  font-style: oblique;
+}
+
+.thirdSide{
+  color: white;
+  /* padding-top: 6%;
+  padding-right: 10%; */
+  font-style: oblique;
+}
+
+.fourthSide{
+  color: white;
+  /* padding-top: 6%;
+  padding-right: 10%; */
+  font-style: oblique;
+}
+
+.fifthSide{
+  color: white;
+  /* padding-top: 6%;
+  padding-left: 50%; */
+  font-style: oblique;
+}
+}

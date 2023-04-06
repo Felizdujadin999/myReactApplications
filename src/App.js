@@ -1,10 +1,18 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import TopNav from './pages/dashBoard/component/topNav';
+import Footer from './pages/dashBoard/component/footer';
+import { FooterTwo } from './pages/dashBoard/component/footer';
+import Hero from './pages/dashBoard/component/hero';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <TopNav />
+      <Footer />
+      <FooterTwo />
+      <Hero />
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,7 +25,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }
