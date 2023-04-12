@@ -1,17 +1,18 @@
 // import logo from './logo.svg';
 import './App.css';
 import TopNav from './pages/dashBoard/component/topNav';
-import Footer from './pages/dashBoard/component/footer';
-import { FooterTwo } from './pages/dashBoard/component/footer';
-import Hero from './pages/dashBoard/component/hero';
+import FooterII from './pages/dashBoard/component/footerII';
+import Felix from './pages/dashBoard/component/functionalComponent';
+
 
 function App() {
   return (
     <div className="App">
       <TopNav />
-      <Footer />
-      <FooterTwo />
-      <Hero />
+      <Felix />
+       <FooterII />
+      {/*<FooterTwo />
+      <Hero /> */}
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
