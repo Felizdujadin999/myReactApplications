@@ -3,14 +3,22 @@ import './App.css';
 import TopNav from './pages/dashBoard/component/topNav';
 import FooterII from './pages/dashBoard/component/footerII';
 import Felix from './pages/dashBoard/component/functionalComponent';
+import Classwork from './Classwork';
+import Tictactoe from './pages/dashBoard/component/Tictactoe';
+import QuoteGenerator from './pages/dashBoard/component/RandomQuoteGenerator';
+import Calculator from './pages/dashBoard/component/Calculator';
 
 
 function App() {
   return (
     <div className="App">
-      <TopNav />
+      {/* <Classwork /> */}
+      <Tictactoe />
+      {/* <QuoteGenerator/> */}
+      {/* <Calculator/> */}
+      {/* <TopNav />
       <Felix />
-       <FooterII />
+       <FooterII /> */}
       {/*<FooterTwo />
       <Hero /> */}
       {/* <header className="App-header">

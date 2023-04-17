@@ -1,0 +1,25 @@
+.board {
+    display: inline-grid;
+    width: 40%;
+    height: 70vh;
+    grid-template-columns: auto auto auto;
+    background-color: darkgreen;
+    padding: 10px;
+  }
+  .grid-item:hover{
+    border: solid 2pt #f5f5f5;
+    background-color: whitesmoke;
+    transform: scale(1.0);
+  }
+  
+  .grid-item {
+    background-color: gold;
+    border: 1px solid darkgreen;
+    padding: 20px;
+    font-size: xxx-large;
+    font-style: oblique;
+  }
+  .writeUp{
+    color: white;
+    margin-left: 100%;
+  }

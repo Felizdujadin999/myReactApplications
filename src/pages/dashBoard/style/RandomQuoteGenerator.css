@@ -1,0 +1,39 @@
+.mainContainer{
+    background-image:linear-gradient(to right, #25aae1, #40e495, #fa7199, #fa4589, #63fa45 );
+    background-image: radial-gradient(to left, #25aae1, #40e495, #fa7199, #fa4589, #63fa45);
+}
+.ptag{
+    padding-left: 45%;
+    text-align: center;
+    font-style: oblique;
+    font-weight: bolder;
+}
+.button {
+    background-image: linear-gradient(to right, #25aae1, #40e495, #fa7199, #fa4589, #63fa45);
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    transform: scale(1.1);
+    background-color: #3e8e41;
+  }
+  #quote{
+    text-align: center;
+    font-style: oblique;
+    font-weight: bolder;
+  }
