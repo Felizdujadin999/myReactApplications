@@ -1,6 +1,8 @@
 import React, {useState} from 'react';
+import {useNavigate} from 'react-router-dom';
 
 export default function Classwork(){
+    const Navigate = useNavigate();
 
     const [number, setNumber] = useState(0)
 
@@ -36,7 +38,8 @@ export default function Classwork(){
             <label htmlFor="sNum">
             Decreament value by input: <input type="number" name="secondNumber" id="sNum" placeholder='enter a number'/>
             <button name="secondNumber" onClick={handleChange}>Enter</button>
-            </label>
+            </label><br/>
+            <button onClick={()=>{Navigate("/tictactoe")}}>Move to the next page</button>
         </React.Fragment>
     )
 }

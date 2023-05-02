@@ -3,7 +3,7 @@
     width: 40%;
     height: 70vh;
     grid-template-columns: auto auto auto;
-    background-color: darkgreen;
+    background-color: skyblue;
     padding: 10px;
   }
   .grid-item:hover{
@@ -22,4 +22,38 @@
   .writeUp{
     color: white;
     margin-left: 100%;
+  }
+  #playerOne{
+    border: 1px solid darkgreen;
+    background-image: linear-gradient(to right, lightGreen, skyBlue, lightYellow, lightBlue, whitesmoke);
+    font-style: italic;
+  } 
+  #playerTwo{
+    border: 1px solid darkgreen;
+    background-image: linear-gradient(to right, lightGreen, skyBlue, lightYellow, lightBlue, whitesmoke);
+    font-style: italic;
+  }
+  #play{
+    border: 1px solid darkgreen;
+    background-image: linear-gradient(to right, lightGreen, skyBlue, lightYellow, lightBlue, whitesmoke);
+    font-style: italic;
+  }
+  #restart{
+    border: 1px solid darkgreen;
+    background-image: linear-gradient(to right, lightGreen, skyBlue, lightYellow, lightBlue, whitesmoke);
+    font-style: italic;
+  }
+  #play:hover{
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    transform: scale(1.1);
+  }
+  #restart:hover{
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    transform: scale(1.1);
   }
