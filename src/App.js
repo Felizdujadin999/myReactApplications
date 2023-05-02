@@ -9,9 +9,6 @@ import Tictactoe from './pages/dashBoard/component/Tictactoe';
 import QuoteGenerator from './pages/dashBoard/component/RandomQuoteGenerator';
 import Calculator from './pages/dashBoard/component/Calculator';
 import StateMgtWithReducer from './pages/dashBoard/component/StateMgtWithReducer';
-import Cycle from './pages/dashBoard/component/Cycle';
-import FrontCyclePage from './pages/dashBoard/component/CycleFrontPage';
-import TrackPeriod from './pages/dashBoard/component/TrackPage';
 import TodoList from './pages/dashBoard/component/TodoList';
 import CounterComponent from './pages/dashBoard/component/CounterComponent';
 
@@ -22,10 +19,7 @@ function App() {
       <Router>
         <Routes>`
           {/* <Route path='/tictactoe' element={<Tictactoe />} /> */}
-          <Route path='/Cycle' element={<Cycle />} />
           <Route path='/StateReducer' element={<StateMgtWithReducer />}/>
-          <Route path='/FrontPage' element={<FrontCyclePage />} />
-          <Route path='/TrackPeriod' element={<TrackPeriod />} />
           <Route path='/ToDoList' element={<TodoList />} />
           <Route path='/counter' element={<CounterComponent />} />
           {/* <Route path='/quoteGenerator' element={<QuoteGenerator/>} /> */}
